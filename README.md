@@ -11,7 +11,13 @@ This project is a graphical user interface (GUI) application for encrypting and 
 - **Clear Function:** Allows users to clear both input and output text areas.
 
 ## Code Overview
-- **isHexadecimal(text): Checks if the provided text is a valid hexadecimal string.
-- **encrypt(): Encrypts the input plaintext message using DES and displays the result in hexadecimal format.
-- **decrypt(): Decrypts the input hexadecimal ciphertext back to plaintext and displays the result.
-- **clear_text(): Clears the input and output text areas.
+- **isHexadecimal(text):** Checks if the provided text is a valid hexadecimal string.
+- **encrypt():** Encrypts the input plaintext message using DES and displays the result in hexadecimal format.
+- **decrypt():** Decrypts the input hexadecimal ciphertext back to plaintext and displays the result.
+- **clear_text():** Clears the input and output text areas.
+
+## Limitations
+**DES Encryption:** DES is considered to be a legacy encryption algorithm with known vulnerabilities. For more secure applications, consider using AES (Advanced Encryption Standard).
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
